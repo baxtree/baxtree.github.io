@@ -322,3 +322,7 @@ p.poster {
 p.poster a img {
     width: 200px;
 }
+
+#bibtex {
+    float: right;
+}
