@@ -1,7 +1,6 @@
 #!/bin/bash
 
 git checkout development
-bundle exec jekyll build
 cp -r _site/ /tmp/_site
 git checkout master
 rm -rf .
