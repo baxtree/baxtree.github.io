@@ -1,9 +1,0 @@
-@phdthesis{bai2013,
- title = {Peer-to-Peer, Multi-Agent Interaction Adapted to a Web Architecture},
- author = {Xi Bai},
- school = {University of Edinburgh},
- year = {2013},
- month = {July},
- address = {Edinburgh, UK},
- url = {http://hdl.handle.net/1842/7968}
-}
