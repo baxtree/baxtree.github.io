@@ -1,2 +1,6 @@
 .idea*
 baxtree.github.io.iml
+_site
+Gemfile
+Gemfile.lock
+.rvmrc
