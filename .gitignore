@@ -4,3 +4,4 @@ Gemfile.lock
 baxtree.github.io.iml
 .rvmrc
 _site
+.DS_Store
