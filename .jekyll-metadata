@@ -1,0 +1,179 @@
+---
+/Users/baxtree/Documents/workspace/homepage/_posts/2015-02-12-welcome-to-jekyll.markdown:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps:
+  - /Users/baxtree/Documents/workspace/homepage/_layouts/post.html
+  - /Users/baxtree/Documents/workspace/homepage/_includes/head.html
+  - /Users/baxtree/Documents/workspace/homepage/_includes/header.html
+  - /Users/baxtree/Documents/workspace/homepage/_includes/footer.html
+  - /Users/baxtree/Documents/workspace/homepage/_layouts/default.html
+/Users/baxtree/Documents/workspace/homepage/about.md:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps:
+  - /Users/baxtree/Documents/workspace/homepage/_layouts/page.html
+  - /Users/baxtree/Documents/workspace/homepage/_includes/head.html
+  - /Users/baxtree/Documents/workspace/homepage/_includes/header.html
+  - /Users/baxtree/Documents/workspace/homepage/_includes/footer.html
+  - /Users/baxtree/Documents/workspace/homepage/_layouts/default.html
+/Users/baxtree/Documents/workspace/homepage/feed.xml:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/index.html:
+  mtime: 2015-02-12 23:06:59.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/_layouts/post.html:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/_layouts/page.html:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/_includes/head.html:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/_includes/header.html:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/_includes/footer.html:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/untitled file:
+  mtime: 2015-02-12 22:59:30.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/projects.html:
+  mtime: 2015-02-12 23:07:09.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/publications.html:
+  mtime: 2015-02-12 23:14:05.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/css/main.scss:
+  mtime: 2015-02-12 23:45:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/_layouts/default.html:
+  mtime: 2015-02-12 00:38:42.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/docs/choreography.pdf:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/docs/peercommunity.pdf:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/docs/serviceposter.pdf:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/7701e2813548e4f477e7cb7f940b85b6.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg01.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg02.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg03.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg04.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg05.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg06.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg07.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/bg08.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/choreography.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/choreography.pdf:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/code1.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/code2.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/crab.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/ecobusiness.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/gmail.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage01.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage02.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage03.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage04.gif:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage05.gif:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage06.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/homepage07.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/img.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/metastyle.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/okbook.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/okeilidh.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/peercommunity.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/photo.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/photo2.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/qrcode.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/rdfasquare.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/serviceposter.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/sindice.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/spacer.gif:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/travelhub.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/valid-xhtml-rdfa.png:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/xi-m.jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
+/Users/baxtree/Documents/workspace/homepage/images/xibai(90,130).jpg:
+  mtime: 2015-02-12 23:20:08.000000000 +00:00
+  deps: []
