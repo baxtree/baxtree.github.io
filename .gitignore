@@ -3,3 +3,4 @@ Gemfile.lock
 .idea*
 baxtree.github.io.iml
 .rvmrc
+_site
