@@ -1,28 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" 
-      xmlns:foaf="http://xmlns.com/foaf/0.1/" 
-	  xmlns:cal="http://www.w3.org/2002/12/cal/icaltzd#"
-      xmlns:wot="http://xmlns.com/wot/0.1/" 
-      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
-      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
-      xmlns:owl="http://www.w3.org/2002/07/owl#"
-      xmlns:dc="http://purl.org/dc/terms/"
-	  xmlns:openid="http://xmlns.openid.net/auth#"
-	  xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-	  xmlns:v="http://rdf.data-vocabulary.org/#"
-      xmlns:bio="http://vocab.org/bio/0.1/olb/"
-	  xmlns:swc="http://data.semanticweb.org/ns/swc/ontology#"
-	  version="XHTML+RDFa 1.0" xml:lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.1//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-2.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" prefix="foaf:http://xmlns.com/foaf/0.1/ cal:http://www.w3.org/2002/12/cal/icaltzd# wot:http://xmlns.com/wot/0.1/ rdfs:http://www.w3.org/2000/01/rdf-schema# rdf:http://www.w3.org/1999/02/22-rdf-syntax-ns# owl:http://www.w3.org/2002/07/owl# dc:http://purl.org/dc/terms/ openid:http://xmlns.openid.net/auth# xsd:http://www.w3.org/2001/XMLSchema# v:http://rdf.data-vocabulary.org/# bio:http://vocab.org/bio/0.1/olb/ swc:http://data.semanticweb.org/ns/swc/ontology#" version="XHTML+RDFa 1.1" xml:lang="en">
 
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body typeof="foaf:Person v:Person" about="#me" property="v:url" content="http://baixi.info/#me">
+<body typeof="foaf:Person v:Person" about="#me" property="v:url" content="http://baixi.info/#me">
 
-	{{ content}}    
+{{ content}}    
 
-    {% include footer.html %}
+{% include footer.html %}
 
-  </body>
+</body>
 
 </html>
