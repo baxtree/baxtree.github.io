@@ -1,14 +1,11 @@
-# Site settings
 title: Xi Bai''s Homepage
 email: xi.bai.ed@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+description: > 
+  Xi''s personal site
+baseurl: ""
+url: "http://baixi.info"
+twitter_username: baxtree
+github_username:  baxtree
 
 # Build settings
 markdown: kramdown
