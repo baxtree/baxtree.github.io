@@ -10,7 +10,169 @@
     "xsd": "http://www.w3.org/2001/XMLSchema#"
   },
   "@graph": [
-  	{
+    {
+      "@id": "http://baixi.info/docs/peercommunity.pdf",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      }
+    },
+    {
+      "@id": "http://baixi.info/publications/",
+      "fb:admins": {
+        "@language": "en",
+        "@value": "baxtree"
+      },
+      "foaf:maker": {
+        "@id": "http://baixi.info/#me"
+      },
+      "foaf:primaryTopic": {
+        "@id": "http://baixi.info/#me"
+      },
+      "og:description": {
+        "@language": "en",
+        "@value": "Welcome to Xi Bai's personal space."
+      },
+      "og:image": {
+        "@language": "en",
+        "@value": "http://baixi.info/images/xi-m.jpg"
+      },
+      "og:latitude": {
+        "@language": "en",
+        "@value": "51.5126"
+      },
+      "og:locality": {
+        "@language": "en",
+        "@value": "London"
+      },
+      "og:longitude": {
+        "@language": "en",
+        "@value": "0.2245"
+      },
+      "og:region": {
+        "@language": "en",
+        "@value": "London Borough of Hammersmith and Fulham"
+      },
+      "og:site_name": {
+        "@language": "en",
+        "@value": "GitHub Pages server"
+      },
+      "og:title": {
+        "@language": "en",
+        "@value": "Xi Bai's Homepage"
+      },
+      "og:type": {
+        "@language": "en",
+        "@value": "website"
+      },
+      "og:url": {
+        "@language": "en",
+        "@value": "http://baixi.info/"
+      }
+    },
+    {
+      "@id": "_:N64057237f2044fbdb937f9c3b45034fb",
+      "foaf:homepage": [
+        {
+          "@id": "http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/"
+        },
+        {
+          "@id": "http://www.inf.ed.ac.uk/teaching/courses/masws/"
+        },
+        {
+          "@id": "http://www.inf.ed.ac.uk/teaching/courses/masws/"
+        }
+      ],
+      "foaf:name": [
+      	{
+          "@language": "en",
+          "@value": "INF1: Computation and Logic (September 2012 to December 2012)"
+        },
+        {
+          "@language": "en",
+          "@value": "Multi-Agent Semantic Web Systems (December 2010 to April 2011)"
+        },
+        {
+          "@language": "en",
+          "@value": "Multi-Agent Semantic Web Systems (December 2009 to April 2010)"
+        }
+        
+      ]
+    },
+    {
+      "@id": "http://baixi.info/docs/choreography.pdf",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      }
+    },
+    {
+      "@id": "_:Ne56f8abb4ee34097a9e07aec5a3c172d",
+      "foaf:homepage": {
+        "@id": "http://folk.ntnu.no/dstrasun/ijmso-eassa/"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Evaluation Aspects of Semantic Search Applications (Special Issue of IJMSO 2010)"
+      }
+    },
+    {
+      "@id": "_:N5d9cc34fc7f74948bde4a652f16dfb4e",
+      "foaf:homepage": {
+        "@id": "http://events.idi.ntnu.no/enqoir09/"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "First International Workshop on Aspects in Evaluating Holistic Quality of Ontology-based Information Retrieval (ENQOIR 2009)"
+      }
+    },
+    {
+      "@id": "http://baixi.info/#me",
+      "@type": [
+        "v:Person",
+        "foaf:Person"
+      ],
+      "foaf:pastProject": {
+        "@id": "_:N64057237f2044fbdb937f9c3b45034fb"
+      },
+      "swc:holdsRole": [
+        {
+          "@id": "_:N06d15e330d7b444a8066db76463550f6"
+        },
+        {
+          "@id": "_:N036c3443302440fe8056adf285093108"
+        }
+      ],
+      "v:url": {
+        "@language": "en",
+        "@value": "http://baixi.info/#me"
+      }
+    },
+    {
+      "@id": "http://baixi.info/docs/serviceposter.pdf",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      }
+    },
+    {
+      "@id": "_:N036c3443302440fe8056adf285093108",
+      "@type": "swc:PCMember",
+      "swc:isRoleAt": {
+        "@id": "_:N5d9cc34fc7f74948bde4a652f16dfb4e"
+      }
+    },
+    {
+      "@id": "http://baixi.info/#me",
+      "foaf:homepage": {
+        "@id": "http://baixi.info/publications/"
+      }
+    },
+    {
+      "@id": "_:N06d15e330d7b444a8066db76463550f6",
+      "@type": "swc:PCMember",
+      "swc:isRoleAt": {
+        "@id": "_:Ne56f8abb4ee34097a9e07aec5a3c172d"
+      }
+    },
+    {
       "@id": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6511945",
       "dcterms:creator": {
         "@id": "http://baixi.info/#me"
@@ -65,24 +227,6 @@
       }
     },
     {
-      "@id": "http://www.springerlink.com/content/1505t31697k81309/",
-      "dcterms:creator": {
-        "@id": "http://baixi.info/#me"
-      },
-      "dcterms:date": {
-        "@language": "en",
-        "@value": "2010"
-      },
-      "dcterms:description": {
-        "@language": "en",
-        "@value": "Xi Bai, Wamberto Vasconcelos and Dave Robertson. Proceedings of the Extended Semantic Web Conference (ESWC 2010)."
-      },
-      "dcterms:title": {
-        "@language": "en",
-        "@value": "OKBook: Peer-to-Peer Community Formation"
-      }
-    },
-    {
       "@id": "http://www.aaai.org/ocs/index.php/SSS/SSS10/paper/view/1068/1439",
       "dcterms:creator": {
         "@id": "http://baixi.info/#me"
@@ -98,6 +242,24 @@
       "dcterms:title": {
         "@language": "en",
         "@value": "Service Choreography Meets the Web of Data Via Micro-Data"
+      }
+    },
+    {
+      "@id": "http://www.springerlink.com/content/1505t31697k81309/",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2010"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Wamberto Vasconcelos and Dave Robertson. Proceedings of the Extended Semantic Web Conference (ESWC 2010)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "OKBook: Peer-to-Peer Community Formation"
       }
     },
     {
@@ -153,24 +315,6 @@
         "@language": "en",
         "@value": "WebKER: A Wrapper Learning-based Tool for\n\tExtracting Knowledge"
       }
-    },    
-    {
-      "@id": "http://www.springerlink.com/content/b0229p5312705140/",
-      "dcterms:creator": {
-        "@id": "http://baixi.info/#me"
-      },
-      "dcterms:date": {
-        "@language": "en",
-        "@value": "2007"
-      },
-      "dcterms:description": {
-        "@language": "en",
-        "@value": "Xi Bai, Jigui Sun, Haiyan Che and Jin Wang. Proceedings of the International RuleML Symposium\n\ton Rule Interchange and Applications (RuleML-2007)."
-      },
-      "dcterms:title": {
-        "@language": "en",
-        "@value": "Towards Knowledge Extraction from Weblogs and Rule-Based Semantic\n\tQuerying"
-      }
     },
     {
       "@id": "http://www.springerlink.com/content/617m15013374q652/?p=bc5b2f7872ed43df8ad849c0091689d8&pi=5",
@@ -191,52 +335,22 @@
       }
     },
     {
-      "@id": "_:Neffa8e83f728407e86c2081c0ddf291e",
-      "foaf:homepage": {
-        "@id": "http://events.idi.ntnu.no/enqoir09/"
+      "@id": "http://www.springerlink.com/content/b0229p5312705140/",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
       },
-      "rdfs:label": {
+      "dcterms:date": {
         "@language": "en",
-        "@value": "First International Workshop on Aspects in Evaluating Holistic Quality of Ontology-based Information Retrieval (ENQOIR 2009)"
-      }
-    },
-    {
-      "@id": "_:N46018db117604f7e93f759269046c77c",
-      "foaf:homepage": {
-        "@id": "http://folk.ntnu.no/dstrasun/ijmso-eassa/"
+        "@value": "2007"
       },
-      "rdfs:label": {
+      "dcterms:description": {
         "@language": "en",
-        "@value": "Evaluation Aspects of Semantic Search Applications (Special Issue of IJMSO 2010)"
+        "@value": "Xi Bai, Jigui Sun, Haiyan Che and Jin Wang. Proceedings of the International RuleML Symposium\n\ton Rule Interchange and Applications (RuleML-2007)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Towards Knowledge Extraction from Weblogs and Rule-Based Semantic\n\tQuerying"
       }
-    },
-    {
-	    "@id": "_:N6d1959c89fb4478da2b943d964412180",
-	    "foaf:homepage": [
-	    	{
-	            "@id": "http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/"
-	        },
-	        {
-	            "@id": "http://www.inf.ed.ac.uk/teaching/courses/masws/"
-	        },
-	        {
-	            "@id": "http://www.inf.ed.ac.uk/teaching/courses/masws/"
-	        }
-	    ],
-	    "foaf:name": [
-	    	{
-	            "@language": "en",
-	            "@value": "INF1: Computation and Logic (September 2012 to December 2012)"
-	        },
-	    	{
-	            "@language": "en",
-	            "@value": "Multi-Agent Semantic Web Systems (December 2010 to April 2011)"
-	        },
-	    	{
-	            "@language": "en",
-	            "@value": "Multi-Agent Semantic Web Systems (December 2009 to April 2010)"
-	        }   	        
-	    ]
-	}
+    }
   ]
 }

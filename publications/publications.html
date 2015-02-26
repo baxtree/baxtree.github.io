@@ -24,7 +24,7 @@ permalink: /publications/
 					</div>
 					<div class="entry">					
 					{% for publication in site.data.publications['@graph'] %}
-						{% if publication['dcterms:title'] != nil %}
+						{% if publication['dcterms:title'] != nil && publication['dcterms:creator'] !=nil %}
 							<ul rev="dc:creator">
 	                            <li style="list-style-type: none;"><b>{{ publication['dcterms:date']['@value'] }}</b></li>
 	                            <li>
@@ -76,10 +76,11 @@ permalink: /publications/
 				<div class="section0"></div>
 				<div class="section1">
 					<h2>Posters:</h2>
-					<p class="poster"><a rev="dc:creator" href="../docs/serviceposter.pdf"><img src="../images/serviceposter.jpg" alt="" /></a></p>
-					<p class="poster"><a rev="dc:creator" href="../docs/choreography.pdf"><img src="../images/choreography.jpg" alt="" /></a></p>
-	
-					<p class="poster"><a rev="dc:creator" href="../docs/peercommunity.pdf"><img src="../images/peercommunity.png" alt="" /></a></p>
+					{% for publication in site.data.publications['@graph'] %}
+						{% if publication['dcterms:title'] == nil and publication['dcterms:creator'] != nil %}
+							<p class="poster"><a rev="dc:creator" href="{{ publication['@id'] }}"><img src="{{ publication['@id'] | replace: '/docs/', '/images/' | replace: '.pdf', '.jpg'}}" alt="" /></a></p>
+						{% endif %}
+					{% endfor %}
 				</div>
 				<div class="section2">
 				</div>
