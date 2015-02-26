@@ -1,0 +1,242 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "og": "http://ogp.me/ns#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "v": "http://rdf.data-vocabulary.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+  	{
+      "@id": "http://ieeexplore.ieee.org/xpls/abs_all.jsp?arnumber=6511945",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2012"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Ewan Klein and Dave Robertson. Proceedings of the IEEE/WIC/ACM International Conferences on Web Intelligence (WI 2012)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Choreographing Web Services with Semantically Enhanced Scripting"
+      }
+    },
+    {
+      "@id": "http://www.springerlink.com/content/v178454864j48lr5/",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2011"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Ewan Klein and Dave Robertson. Proceedings of the Joint International Semantic Technology Conference (JIST 2011)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "RDFa2: Lightweight Semantic Enrichment for Hypertext Content"
+      }
+    },
+    {
+      "@id": "http://www2011india.com/proceeding/companion/p331.pdf",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2011"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai. Proceedings of the International Conference on World Wide Web (WWW 2011 Companion Volume)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Addressing the RDFa Publishing Bottleneck"
+      }
+    },
+    {
+      "@id": "http://www.springerlink.com/content/1505t31697k81309/",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2010"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Wamberto Vasconcelos and Dave Robertson. Proceedings of the Extended Semantic Web Conference (ESWC 2010)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "OKBook: Peer-to-Peer Community Formation"
+      }
+    },
+    {
+      "@id": "http://www.aaai.org/ocs/index.php/SSS/SSS10/paper/view/1068/1439",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2010"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai and Dave Robertson. Proceedings of the AAAI Symposium on Linked Data Meets Artificial Intelligence (LinkedAI 2010)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Service Choreography Meets the Web of Data Via Micro-Data"
+      }
+    },
+    {
+      "@id": "http://ceur-ws.org/Vol-474/paper10.pdf",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2009"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Baoping Cheng and Dave Robertson. Proceedings of the Workshop on Inductive\n\tReasoning and Machine Learning on the Semantic Web at ESWC 2009."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Mobile Widget Sharing by Mining Peer\n\tGroups"
+      }
+    },
+    {
+      "@id": "http://www.springerlink.com/content/c5644mqv8w3k1042/?p=3bd3c0ede0d844ad858e0e0c8a583fb7&pi=10",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2008"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": " Xi Bai, Renaud Delbru and Giovanni Tummarello. Proceedings of the OTM 2008 Confederated International Conferences, CoopIS, DOA, GADA, IS, and ODBASE 2008."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "RDF Snippets for Semantic Web Search Engines"
+      }
+    },
+    {
+      "@id": "http://iswc2007.semanticweb.org/papers/Paper356-WebKERAWrapperLearning-basedToolforExtractingKnowledge.pdf",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2007"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai and Jigui Sun. Proceedings of the 6th International Semantic Web Conference (ISWC 2007) Poster & Demo track."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "WebKER: A Wrapper Learning-based Tool for\n\tExtracting Knowledge"
+      }
+    },    
+    {
+      "@id": "http://www.springerlink.com/content/b0229p5312705140/",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2007"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Jigui Sun, Haiyan Che and Jin Wang. Proceedings of the International RuleML Symposium\n\ton Rule Interchange and Applications (RuleML-2007)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Towards Knowledge Extraction from Weblogs and Rule-Based Semantic\n\tQuerying"
+      }
+    },
+    {
+      "@id": "http://www.springerlink.com/content/617m15013374q652/?p=bc5b2f7872ed43df8ad849c0091689d8&pi=5",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:date": {
+        "@language": "en",
+        "@value": "2007"
+      },
+      "dcterms:description": {
+        "@language": "en",
+        "@value": "Xi Bai, Jigui Sun, Zehai Li and Xianrui Lu. Proceedings of the First International Conference on Web\n\tReasoning and Rule Systems (RR 2007)."
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Domain ontology learning and consistency checking based on TSC approach and Racer."
+      }
+    },
+    {
+      "@id": "_:Neffa8e83f728407e86c2081c0ddf291e",
+      "foaf:homepage": {
+        "@id": "http://events.idi.ntnu.no/enqoir09/"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "First International Workshop on Aspects in Evaluating Holistic Quality of Ontology-based Information Retrieval (ENQOIR 2009)"
+      }
+    },
+    {
+      "@id": "_:N46018db117604f7e93f759269046c77c",
+      "foaf:homepage": {
+        "@id": "http://folk.ntnu.no/dstrasun/ijmso-eassa/"
+      },
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Evaluation Aspects of Semantic Search Applications (Special Issue of IJMSO 2010)"
+      }
+    },
+    {
+	    "@id": "_:N6d1959c89fb4478da2b943d964412180",
+	    "foaf:homepage": [
+	    	{
+	            "@id": "http://www.inf.ed.ac.uk/teaching/courses/inf1/cl/"
+	        },
+	        {
+	            "@id": "http://www.inf.ed.ac.uk/teaching/courses/masws/"
+	        },
+	        {
+	            "@id": "http://www.inf.ed.ac.uk/teaching/courses/masws/"
+	        }
+	    ],
+	    "foaf:name": [
+	    	{
+	            "@language": "en",
+	            "@value": "INF1: Computation and Logic (September 2012 to December 2012)"
+	        },
+	    	{
+	            "@language": "en",
+	            "@value": "Multi-Agent Semantic Web Systems (December 2010 to April 2011)"
+	        },
+	    	{
+	            "@language": "en",
+	            "@value": "Multi-Agent Semantic Web Systems (December 2009 to April 2010)"
+	        }   	        
+	    ]
+	}
+  ]
+}

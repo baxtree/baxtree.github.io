@@ -1,0 +1,204 @@
+{
+  "@context": {
+    "dc": "http://purl.org/dc/terms/",
+    "dcterms": "http://purl.org/dc/terms/",
+    "foaf": "http://xmlns.com/foaf/0.1/",
+    "og": "http://ogp.me/ns#",
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "v": "http://rdf.data-vocabulary.org/#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#"
+  },
+  "@graph": [
+    {
+      "@id": "https://www.era.lib.ed.ac.uk/handle/1842/7968",
+      "dcterms:creator": {
+        "@id": "http://baixi.info/#me"
+      },
+      "dcterms:description": {
+        "@id": "http://baixi.info/bai2013.txt"
+      },
+      "dcterms:title": {
+        "@language": "en",
+        "@value": "Peer-to-Peer, Multi-Agent Interaction Adapted to a Web Architecture"
+      }
+    },
+    {
+      "@id": "https://github.com/baxtree",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "GitHub"
+      }
+    },
+    {
+      "@id": "http://sourceforge.net/u/baxtree/profile/",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "SourceForge"
+      }
+    },
+    {
+      "@id": "_:Nfec453edbf4640fe86f09ea9987f7617",
+      "v:address": {
+        "@id": "_:N48d411a9b039415d876d3319c483290f"
+      }
+    },
+    {
+      "@id": "http://www.facebook.com/baxtree",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Facebook"
+      }
+    },
+    {
+      "@id": "http://twitter.com/baxtree",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Twitter"
+      }
+    },
+    {
+      "@id": "_:N48d411a9b039415d876d3319c483290f",
+      "v:country-name": {
+        "@language": "en",
+        "@value": "United Kingdom"
+      },
+      "v:locality": {
+        "@language": "en",
+        "@value": "London"
+      },
+      "v:url": {
+        "@id": "http://www.bbc.co.uk/"
+      }
+    },
+    {
+      "@id": "http://baixi.info/",
+      "fb:admins": {
+        "@language": "en",
+        "@value": "baxtree"
+      },
+      "foaf:maker": {
+        "@id": "http://baixi.info/#me"
+      },
+      "foaf:primaryTopic": {
+        "@id": "http://baixi.info/#me"
+      },
+      "og:description": {
+        "@language": "en",
+        "@value": "Welcome to Xi Bai's personal space."
+      },
+      "og:image": {
+        "@language": "en",
+        "@value": "http://baixi.info/images/xi-m.jpg"
+      },
+      "og:latitude": {
+        "@language": "en",
+        "@value": "51.5126"
+      },
+      "og:locality": {
+        "@language": "en",
+        "@value": "London"
+      },
+      "og:longitude": {
+        "@language": "en",
+        "@value": "0.2245"
+      },
+      "og:region": {
+        "@language": "en",
+        "@value": "London Borough of Hammersmith and Fulham"
+      },
+      "og:site_name": {
+        "@language": "en",
+        "@value": "GitHub Pages server"
+      },
+      "og:title": {
+        "@language": "en",
+        "@value": "Xi Bai's Homepage"
+      },
+      "og:type": {
+        "@language": "en",
+        "@value": "website"
+      },
+      "og:url": {
+        "@language": "en",
+        "@value": "http://baixi.info/"
+      }
+    },
+    {
+      "@id": "http://baixi.info/#me",
+      "@type": [
+        "foaf:Person",
+        "v:Person"
+      ],
+      "foaf:account": [
+        {
+          "@id": "http://twitter.com/baxtree"
+        },
+        {
+          "@id": "http://sourceforge.net/u/baxtree/profile/"
+        },
+        {
+          "@id": "http://www.facebook.com/baxtree"
+        },
+        {
+          "@id": "https://github.com/baxtree"
+        },
+        {
+          "@id": "https://www.linkedin.com/pub/xi-bai/22/393/892"
+        }
+      ],
+      "foaf:homepage": {
+        "@id": "http://baixi.info/"
+      },
+      "foaf:mbox": {
+        "@language": "en",
+        "@value": "xi.bai.ed.remove_me@gmail.com"
+      },
+      "foaf:mbox_sha1sum": {
+        "@language": "en",
+        "@value": "e18c66523294c7ba6d3bdaebb3547d4752bfaa3a"
+      },
+      "foaf:name": {
+        "@id": "http://baixi.info/#me"
+      },
+      "foaf:schoolHomepage": {
+        "@id": "http://www.inf.ed.ac.uk/"
+      },
+      "foaf:topic_interest": [
+        {
+          "@language": "en",
+          "@value": "Process-Calculus-Based Coordination"
+        },
+        {
+          "@language": "en",
+          "@value": "Agent-Oriented Programming"
+        },
+        {
+          "@language": "en",
+          "@value": "P2P Social Networking"
+        },
+        {
+          "@language": "en",
+          "@value": "Data Integration & Linked Data"
+        },
+        {
+          "@language": "en",
+          "@value": "Semantic Annotation"
+        }
+      ],
+      "v:affiliation": {
+        "@id": "_:Nfec453edbf4640fe86f09ea9987f7617"
+      },
+      "v:name": {
+        "@id": "http://baixi.info/#me"
+      },
+      "v:photo": {
+        "@id": "http://baixi.info/images/xi-m.jpg"
+      },
+      "v:url": {
+        "@language": "en",
+        "@value": "http://baixi.info/#me"
+      }
+    }
+  ]
+}
