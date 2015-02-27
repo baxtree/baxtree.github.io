@@ -281,7 +281,7 @@
       }
     },
     {
-      "@id": "http://www.springerlink.com/content/c5644mqv8w3k1042/?p=3bd3c0ede0d844ad858e0e0c8a583fb7&pi=10",
+      "@id": "http://www.springerlink.com/content/c5644mqv8w3k1042/?p=3bd3c0ede0d844ad858e0e0c8a583fb7%26pi=10",
       "dcterms:creator": {
         "@id": "http://baixi.info/#me"
       },
@@ -309,7 +309,7 @@
       },
       "dcterms:description": {
         "@language": "en",
-        "@value": "Xi Bai and Jigui Sun. Proceedings of the 6th International Semantic Web Conference (ISWC 2007) Poster & Demo track."
+        "@value": "Xi Bai and Jigui Sun. Proceedings of the 6th International Semantic Web Conference (ISWC 2007) Poster &amp; Demo track."
       },
       "dcterms:title": {
         "@language": "en",
@@ -317,7 +317,7 @@
       }
     },
     {
-      "@id": "http://www.springerlink.com/content/617m15013374q652/?p=bc5b2f7872ed43df8ad849c0091689d8&pi=5",
+      "@id": "http://www.springerlink.com/content/617m15013374q652/?p=bc5b2f7872ed43df8ad849c0091689d8%26pi=5",
       "dcterms:creator": {
         "@id": "http://baixi.info/#me"
       },
