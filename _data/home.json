@@ -24,37 +24,9 @@
       }
     },
     {
-      "@id": "https://github.com/baxtree",
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "GitHub"
-      }
-    },
-    {
-      "@id": "http://sourceforge.net/u/baxtree/profile/",
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "SourceForge"
-      }
-    },
-    {
       "@id": "_:Nfec453edbf4640fe86f09ea9987f7617",
       "v:address": {
         "@id": "_:N48d411a9b039415d876d3319c483290f"
-      }
-    },
-    {
-      "@id": "http://www.facebook.com/baxtree",
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "Facebook"
-      }
-    },
-    {
-      "@id": "http://twitter.com/baxtree",
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "Twitter"
       }
     },
     {
@@ -132,20 +104,20 @@
       ],
       "foaf:account": [
         {
-          "@id": "http://twitter.com/baxtree"
+          "@id": "https://www.linkedin.com/pub/xi-bai/22/393/892",
         },
         {
-          "@id": "http://sourceforge.net/u/baxtree/profile/"
+          "@id": "https://github.com/baxtree",
         },
         {
-          "@id": "http://www.facebook.com/baxtree"
+          "@id": "http://sourceforge.net/u/baxtree/profile/",
         },
         {
-          "@id": "https://github.com/baxtree"
+          "@id": "http://twitter.com/baxtree",
         },
         {
-          "@id": "https://www.linkedin.com/pub/xi-bai/22/393/892"
-        }
+          "@id": "http://www.facebook.com/baxtree",
+        }        
       ],
       "foaf:homepage": {
         "@id": "http://baixi.info/"
@@ -165,13 +137,17 @@
         "@id": "http://www.inf.ed.ac.uk/"
       },
       "foaf:topic_interest": [
-        {
+      	{
           "@language": "en",
-          "@value": "Process-Calculus-Based Coordination"
+          "@value": "Data Integration &amp; Linked Data"
         },
         {
           "@language": "en",
-          "@value": "Agent-Oriented Programming"
+          "@value": "Semantic Annotation"
+        },
+        {
+          "@language": "en",
+          "@value": "Process-Calculus-Based Coordination"
         },
         {
           "@language": "en",
@@ -179,11 +155,7 @@
         },
         {
           "@language": "en",
-          "@value": "Data Integration & Linked Data"
-        },
-        {
-          "@language": "en",
-          "@value": "Semantic Annotation"
+          "@value": "Agent-Oriented Programming"
         }
       ],
       "v:affiliation": {
@@ -198,6 +170,41 @@
       "v:url": {
         "@language": "en",
         "@value": "http://baixi.info/#me"
+      }
+    },
+    {
+      "@id": "https://www.linkedin.com/pub/xi-bai/22/393/892",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "LinkedIn"
+      }
+    },
+    {
+      "@id": "https://github.com/baxtree",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "GitHub"
+      }
+    },
+    {
+      "@id": "http://sourceforge.net/u/baxtree/profile/",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "SourceForge"
+      }
+    },
+    {
+      "@id": "http://www.facebook.com/baxtree",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Facebook"
+      }
+    },
+    {
+      "@id": "http://twitter.com/baxtree",
+      "rdfs:label": {
+        "@language": "en",
+        "@value": "Twitter"
       }
     }
   ]
