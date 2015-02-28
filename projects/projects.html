@@ -22,99 +22,48 @@ permalink: /projects/
 					<div class="title">
 						<h2>Current Projects:</h2>
 					</div>
+					{% for project in site.data.projects['@graph'] %}
+						{% if project['foaf:pastProject'] != nil %}
+							{% assign current_projects = project['foaf:currentProject'] %}
+							{% assign past_projects = project['foaf:pastProject'] %}	
+						{% endif %}
+					{% endfor %}
 					<div class="entry">
-						
-							<ul rel="foaf:currentProject">
-								<li>
-									<a 
-	rel="foaf:homepage" href="http://metastyle.cfapps.io" 
-	property="foaf:name">Metastyle</a>:
-									<span property="rdfs:comments"> Metastyle takes a specific vocabulary in RDF as a seed and generates a skeleton for content publishers or Web designers to create a sharable micro-theme dedicated to this vocabulary.</span>
-									<div rel="foaf:logo" resource="../images/metastyle.png"></div>
-								</li>
-							</ul>
-							<ul rel="foaf:currentProject">
-								<li>
-									<a rel="foaf:homepage" href="http://groups.inf.ed.ac.uk/OK/drupal/okeilidh/" property="foaf:name">OKeilidh</a>:
-									<span property="rdfs:comments"> OKeilidh is an online Web Service (WS) choreography management system, which assists users in editing, publishing and testing WS choreography in the form of Interaction Models (IMs) encoded in XLCC.</span>
-									<div rel="foaf:logo" resource="../images/okeilidh.jpg"></div>
-								</li>
-							</ul>
-							<ul rel="foaf:currentProject">
-								<li>
-									<a rel="foaf:homepage" href="http://demos.inf.ed.ac.uk:8836/rdfasquare" property="foaf:name">RDFa<sup>2</sup></a>:
-									<span property="rdfs:comments"> RDFa² is an on-line service which assists content publishers in multi-topics annotation and multi-contexts annotation using RDFa. </span>
-									<div rel="foaf:logo" resource="http://demos.inf.ed.ac.uk:8836/rdfasquare/resource/logo.gif"></div>
-								</li>
-							</ul>
-							<ul rel="foaf:currentProject">
-								<li>
-									<a rel="foaf:homepage" href="http://okbook.inf.ed.ac.uk" property="foaf:name">OKBook</a>:
-									<span property="rdfs:comments"> OKBook is an open online platform for the peer-to-peer community and built on top of the <a href="http://www.openk.org">OpenKnowledge</a> system. OKBook provides peers with a platform on which they can publish, discover and (un)subscribe to Interaction Models in accordance with the <a href="http://www.openk.org">OpenKnowledge</a> system.</span>
-									<div rel="foaf:logo" resource="http://okbook.inf.ed.ac.uk/sites/default/files/okbook_logo_reflection.png"></div>
-								</li>
-							</ul>
-							<ul rel="foaf:currentProject">
-								<li>
-									<a rel="foaf:homepage" href="https://github.com/baxtree/xlcc" property="foaf:name">node-xlcc</a>:
-									<span property="rdfs:comments"> An XLCC interpreter to execute Interaction Models on <a href="http://nodejs.org/">Node</a>.</span>
-									<!-- div property="foaf:logo"></div-->
-								</li>
-							</ul>
-							<ul rel="foaf:currentProject">
-								<li>
-									<a rel="foaf:homepage" href="https://github.com/baxtree/ACL-JSONLD-Codec" property="foaf:name">ACL-JSONLD-Codec</a>:
-									<span property="rdfs:comments"> A codec developed to encode and decode <a href="http://www.fipa.org/specs/fipa00061/">FIPA ACL</a> messages with <a href="http://json-ld.org/">JSON-LD</a>.</span>
-									<!-- div property="foaf:logo"></div-->
-								</li>
-							</ul>
-						
+					{% for current_project in current_projects %}
+						{% for project in site.data.projects['@graph'] %}
+							{% if project['@id'] == current_project['@id'] %}
+								<ul rel="foaf:currentProject">
+									<li>
+										<a rel="foaf:homepage" href="{{ project['foaf:homepage']['@id'] }}" property="foaf:name">{{ project['foaf:name']['@value'] }}</a>: <span property="rdfs:comments"> {{ project['rdfs:comments']['@value']}}</span>
+									{% if project['foaf:logo'] != nil %}
+										<div rel="foaf:logo" resource="{{ project['foaf:logo']['@id'] }}"></div>
+									{% endif %}
+									</li>
+								</ul>
+							{% endif %}
+						{% endfor %}
+					{% endfor %}													
 					</div>
 				</div>
 				<div class="post">
 					<div class="title">
 						<h2>Past Projects:</h2>
 					</div>
-					<div class="entry">
-	
-							<ul rel="foaf:pastProject">
-								<li>
-									<a rel="foaf:homepage" href="http://www.ecobusiness.cat/" 
-	property="foaf:name">EcoBusiness</a>:
-									<span property="rdfs:comments">EcoBusiness aims to apply innovative methodologies and new technological tools such as the Multi-Agent Digital Business Ecosystem (MADBE) to improve the position of European SMEs.</span>
-									<div rel="foaf:logo" resource="https://sourceforge.net/p/madbe//icon"></div>
-								</li>
-								<li>
-									<a rel="foaf:homepage" 
-	href="http://www.sos4business.uk.com/sos-travel-hub-%281%29/sos-travel-hub-.aspx">TravelHub</a>
-	
-									<span property="rdfs:comments">TravelHUB&trade;, is a travel tool that connects carbon sense and 
-	business benefit. It can balance carbon goals against business travel needs, empowering travellers to make decisions based on the criteria that matter.</span>
-									<div rel="foaf:logo" resource="http://www.sos-travelhub.com/media/2051/travelhub-finalweb_499x100.jpg"></div>
-								</li>
-								<li>
-									<a rel="foaf:homepage" href="http://www.openk.org" 
-	property="foaf:name">OpenKnowledge</a>:
-									<span property="rdfs:comments">OpenKnowledge provides a peer-to-peer 
-	platform for sharing knowledge, especially in the vision of the Semantic Web which raises the potential to 
-	evolve OpenKnowledge into a Web-oriented system. 
-	</span>
-									<div rel="foaf:logo" resource="http://www.openk.org/sites/default/files/garland_logo.gif"></div>
-								</li>
-								<li>
-									<a rel="foaf:homepage" href="http://www.sindice.com" property="foaf:name">Sindice</a>:
-									<span property="rdfs:comments"> Sindice is a Semantic Web index engine for the Web of data and currently one of the most significant components in the Link Data ecosystem.</span>
-									<div rel="foaf:logo" resource="http://www.sindice.com/images/logo.png"></div>
-								</li>
-							</ul>
-							<ul rel="foaf:pastProject">
-								<li>
-									<span rel="foaf:homepage" property="foaf:name">CRAB</span>:
-									<span property="rdfs:comments"> CRAB is a semantic-based search engine dedicated to the retrieval of Web documents in Chinese and provides users with human-readable reports which aggregate retrieved information.</span>
-									<div rel="foaf:logo" resource="../images/rdfasquare.jpg"></div>
-								</li>
-							</ul>
-					
+					<div class="entry">						
+					{% for past_project in past_projects %}
+						{% for project in site.data.projects['@graph'] %}
+							{% if project['@id'] == past_project['@id'] %}
+								<ul rel="foaf:pastProject">										
+									<li>
+										<a rel="foaf:homepage" href="{{ project['foaf:homepage']['@id'] }}" property="foaf:name">{{ project['foaf:name']['@value'] }}</a>: <span property="rdfs:comments"> {{ project['rdfs:comments']['@value']}}</span>
+									{% if project['foaf:logo'] != nil %}
+										<div rel="foaf:logo" resource="{{ project['foaf:logo']['@id'] }}"></div>
+									{% endif %}
+									</li>
+								</ul>										
+							{% endif %}
+						{% endfor %}
+					{% endfor %}						
 					</div>
 				</div>
 				<div class="post">
@@ -124,8 +73,15 @@ permalink: /projects/
 					<div class="entry">
 			
 							<ul>
-								<li class="repologo"><a rel="foaf:account" href="https://github.com/baxtree"><span property="rdfs:label" content="GitHub"><img src="../images/code1.jpg" alt="" /></span></a></li>
+							{% for project in site.data.projects['@graph'] %}								
+								{% if project['rdfs:label'] != nil %}
+									<li class="repologo"><a rel="foaf:account" href="{{ project['@id'] }}"><span property="rdfs:label" content="{{ project['rdfs:label']['@value'] }}"><img src="../images/code{% cycle 1, 2 %}.jpg" alt="" /></span></a></li>
+								{% endif %}
+							{% endfor %}
+								<!--
+<li class="repologo"><a rel="foaf:account" href="https://github.com/baxtree"><span property="rdfs:label" content="GitHub"><img src="../images/code1.jpg" alt="" /></span></a></li>
 								<li class="repologo"><a rel="foaf:account" href="http://sourceforge.net/u/baxtree/profile/"><span property="rdfs:label" content="SourceForge"><img src="../images/code2.jpg" alt="" /></span></a></li>
+-->
 							</ul>
 					
 					</div>
@@ -135,13 +91,15 @@ permalink: /projects/
 						<h2>Patent</h2>
 					</div>
 					<div class="entry">
-						
+					{% for project in site.data.projects['@graph'] %}
+						{% if project['dcterms:title'] != nil %}
 							<ul rev="dc:creator">
 								<li typeof="dcmi:Text">
-									<span property="dc:title">A Method for Format Transformation of Mobile Widgets and Its Implementation (No. 200810240535.0)</span>
+									<span property="dc:title">{{ project['dcterms:title']['@value'] }}</span>
 								</li>
 							</ul>
-						
+						{% endif %}
+				    {% endfor %}	
 					</div>
 				</div>
 			</div>
